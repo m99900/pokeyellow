@@ -13,10 +13,12 @@ const_value = 0
 	const SPRITE_QUADRUPED        ; $9
 	const SPRITE_PIKACHU_FAMILY   ; $A
 ; overworld sprites
-const_value = 1
+const_value = 3
 
-	const SPRITE_RED                       ; $01
+	const SPRITE_RED                       ; $01 switch to $03
+const_value = 1
 	const SPRITE_BLUE                      ; $02
+const_value = 3
 	const SPRITE_OAK                       ; $03
 	const SPRITE_BUG_CATCHER               ; $04
 	const SPRITE_SLOWBRO                   ; $05
